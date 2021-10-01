@@ -3,7 +3,12 @@
 **Date: 09.30.2021**
 
 ## Description of our design implementation
-> 
+> 32-bit registers
+- Implement 32 32-bit registers with DFFE
+
+> Write/Read Port
+- Use tristate buffer and decoder to realize customizing output
+- Using and gate to enable writing the registers
 
 > 5-to-32 Decoder
 - First implement a 2-to-4 decoder with an Enable input
