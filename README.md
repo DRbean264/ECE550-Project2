@@ -25,4 +25,9 @@ Thus, the minimum reading time can be determined by the minimum clock cycle. Aft
 that when I set the clock cycle to 5ns, the latency would surpass one clock cycle, while the clock cycle 
 is set to 6ns, the latency is shorter than one clock cycle. (See the following picture)
 
+> Set the clock cycle to 6ns
+![image](https://github.com/DRbean264/ECE550-Project2/blob/master/IMG/correct.png)
+
+> Set the clock cycle to 5ns
+![image](https://github.com/DRbean264/ECE550-Project2/blob/master/IMG/wrong.png))
 
