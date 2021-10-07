@@ -22,13 +22,13 @@
 ## How fast our register file can be clocked
 According to the testbench, it will wait one clock cycle to read out the value stored in the registers. 
 Thus, the minimum reading time can be determined by the minimum clock cycle. After experimenting, we found 
-that when we set the clock cycle to 5ns, the latency would surpass one clock cycle, while the clock cycle 
-is set to 6ns, the latency is shorter than one clock cycle. (See the following picture)
+that when we set the clock cycle to 10ns, the latency would surpass one clock cycle, while the clock cycle 
+is set to 12ns, the latency is shorter than one clock cycle. (See the following picture)
 
-> Set the clock cycle to 6ns
+> Set the clock cycle to 12ns
 ![image](https://github.com/DRbean264/ECE550-Project2/blob/master/IMG/correct.png)
 
-> Set the clock cycle to 5ns
+> Set the clock cycle to 10ns
 ![image](https://github.com/DRbean264/ECE550-Project2/blob/master/IMG/wrong.png))
 
-As for the write operation, we found that it requires no more than 1 ns to accomplish writing. Therefore, combining the reading and writing, our verilog implementation can be clocked as fast as 6(/7)ns per period.
+As for the write operation, we found that it requires no more than 2 ns to accomplish writing. Therefore, combining the reading and writing, our verilog implementation can be clocked as fast as 13~15ns per period.
